@@ -1,7 +1,5 @@
 <?php
 
-//TODO: Make a separate authentication that may be reused on all scripts that need authentication.
-
 session_start();
 if (!$_SESSION['logged_in']) {
     header("Location: login.php");
