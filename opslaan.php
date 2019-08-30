@@ -3,6 +3,9 @@ require('services/Database.php');
 $db = new Database;
 $type = $_POST['save_type'];
 
+
+// TODO: Splits deze file op naar meerdere losse scripts. Eentje voor customer, eentje voor auto, eentje voor klussen.
+
 switch ($type) {
     case 'klant':
         $db->execQuery("INSERT INTO `customers`(`first_name`, `last_name`, `age`) VALUES ('" . $_POST['first_name'] . "', '" . $_POST['last_name'] . "', " . $_POST['leeftijd'] . ")");

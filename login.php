@@ -21,7 +21,9 @@
             </tr>
             <tr>
                 <td>Wachtwoord:</td>
+
                 <!--            TODO: zorg ervoor dat bij password input wat je invult verborgen/niet zichtbaar is-->
+
                 <td><input name="password"></td>
             </tr>
             <tr>

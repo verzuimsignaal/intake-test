@@ -1,8 +1,13 @@
 <?php
-
-//TODO: Authentication
-
 $type = $_GET['type'];
+
+
+// TODO: Splits deze file op naar meerdere losse scripts. Eentje voor customer, eentje voor auto, eentje voor klussen.
+
+// TODO: Maak het mogelijk om een auto aan een bestaande klant toe te voegen
+
+// TODO: Maak het mogelijk om autos, klanten en klussen te verwijderen
+
 
 ?>
 <form action="opslaan.php" method="POST">
@@ -43,7 +48,7 @@ $type = $_GET['type'];
     require('services/Database.php');
     $db = new Database;
 
-    $cars = $db->getAllRows('SELECT cars.*, customers.first_name, customers.last_name from cars JOIN customers on customers.id = cars.customer_id;')
+    $cars = $db->getAllRows('SELECT car.*, customer.first_name, customer.last_name from car JOIN customer on customer.id = car.customer_id;')
 
     ?>
     <form action="opslaan.php">

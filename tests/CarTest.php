@@ -18,4 +18,7 @@ final class CarTest extends TestCase
 
         $this->assertSame(1, $car->getNumberOfTasksOfCar());
     }
+
+    // TODO: Write more tests for tethods in Car.php
+
 }

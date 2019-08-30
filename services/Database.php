@@ -19,7 +19,6 @@ class Database
         }
     }
 
-    //TODO: Make SQL queries safe by using parametrized queries (is a part of PDO)
     public function getAllRows($sql)
     {
         $rows = [];
@@ -29,7 +28,6 @@ class Database
         return $rows;
     }
 
-    //TODO: Make SQL queries safe by using parametrized queries (is a part of PDO)
     public function execQuery($sql)
     {
         $count = $this->db->exec($sql);
