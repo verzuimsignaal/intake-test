@@ -20,6 +20,8 @@ Dit project maakt gebruik van composer (https://getcomposer.org/) en NPM (https:
 
 De volgende dingen worden hiermee geïnstalleerd: PHPUnit, een unit-testing platform (https://phpunit.de/) Bootstrap, een frontend framework(https://getbootstrap.com/) JQuery, een JS framework (https://jquery.com/)
 
+Je kan inloggen in het systeem met de naam jan en het wachtwoord apestaartje.
+
 #Database
 Je zal een MySQL database moeten starten. In de root van het project staat intake.sql. Dit kun je in een MySQL database inladen. In WAMP zit bijvoorbeeld een MySQL server ingebouwd.
 
