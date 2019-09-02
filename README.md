@@ -1,39 +1,26 @@
-# Intake toets
+#Intaketoets
 
-Intake toets voor UNIT4
+Dit is de intaketoets voor Unit4 VerzuimSignaal junior developers. Hiermee willen we je niveau testen en kijken of deze voldoende is om een bijdrage te kunnen leveren aan onze code. Het is dan ook niet erg wanneer het je niet lukt een opdracht te voltooien. Daar kijken we wel doorheen.
 
-Dit is de intake toets voor UNIT4 verzuimsignaal junior developers.
+We hebben een programmaatje geschreven waarmee een garage kan worden beheerd. Je kan inloggen als een gebruiker en zo klanten, auto’s en klussen beheren. De functionaliteit werkt, maar helaas zitten er in de code diverse fouten en gebreken. Aan jou de taak om deze fouten en gebreken te verhelpen.
 
-We hebben een klein programmatje geschreven waarmee een garage kan worden beheert. Je kan inloggen 
-als een gebruiker, en dan klanten, autos en klussen beheren. Helaas is de code niet goed genoeg voor ons.
-Het werkt wel, maar er zitten grote fouten en gebreken in. Het zal aan jou liggen om deze gebreken te verhelpen.
+#Wat te doen?
+Maak een fork van het project naar je eigen GitHub account. Hier kan je je ontwikkelingen naartoe pushen. Zorg dat je commit messages goed beschrijven wat ze precies oplossen.
 
-
-# Wat te doen
-
-Maak een fork van het project naar je eigen GitHub account. Hier kan je je ontwikkelingen naar toe pushen. Zorg dat je commit messages goed beschrijven wat ze precies oplossen.
-
-We hebben een aantal issues geopend in deze Repo voor grote zaken die opgelost moeten worden. Kijk naar de acceptatie criteria wat er precies gedaan moet worden, en zorg dat je je ontwikkeling goed test.
+We hebben een aantal issues geopend in deze Repo voor grote zaken die opgelost moeten worden. Kijk naar de acceptatiecriteria wat er precies gedaan moet worden en zorg dat je je ontwikkeling goed test.
 
 Daarnaast zitten er nog een aantal TODO's in de code zelf. Deze zijn niet verplicht, maar je kan deze oplossen naar eigen inzicht als je tijd over hebt.
 
-Wat we vooral willen weten is WAAROM je bepaalde keuzes maakt. Zorg er daarom ook voor dat je je code goed commentarieerd. En bereid bent om er vragen over uit te leggen.
+Wat we vooral willen weten is WAAROM je bepaalde keuzes maakt. Zorg er daarom voor dat je je code goed becommentarieert. En bereid bent om er vragen over uit te leggen.
 
+#Installatie
+Je kan om dit project thuis te draaien gebruikmaken van bijvoorbeeld WAMP (https://bitnami.com/stack/wamp). Je mag natuurlijk altijd zelf beslissen waarmee je host/ontwikkelt.
 
-# Installatie
+Dit project maakt gebruik van composer (https://getcomposer.org/) en NPM (https://www.npmjs.com/) om bepaalde packages op te halen.
 
-Je kan, om dit project thuis te draaien gebruik maken van bijvoorbeeld WAMP (https://bitnami.com/stack/wamp). Je mag natuurlijk altijd zelf beslissen waarmee je host/ontwikkeld.
+De volgende dingen worden hiermee geïnstalleerd: PHPUnit, een unit-testing platform (https://phpunit.de/) Bootstrap, een frontend framework(https://getbootstrap.com/) JQuery, een JS framework (https://jquery.com/)
 
-Dit project maakt gebruik van composer (https://getcomposer.org/), NPM (https://www.npmjs.com/) om bepaalde packages op te halen.
-
-De volgende dingen worden hiermee geinstalleerd:
-PHPUnit, een unit-testing platform (https://phpunit.de/)
-Bootstrap, een frontend framework(https://getbootstrap.com/)
-JQuery, een JS framework (https://jquery.com/)
-
-
-# Database
-
-Je zal een MySQL database moeten starten. In de root van het project staat intake.sql, dit kun je in een MySQL database inladen. IN WAMP zit een MySQL server ingebouwd bijvoorbeeld.
+#Database
+Je zal een MySQL database moeten starten. In de root van het project staat intake.sql. Dit kun je in een MySQL database inladen. In WAMP zit bijvoorbeeld een MySQL server ingebouwd.
 
 In services/Database.sql staat op regel 15 een PDO database connection call. Pas deconnectiestring aan waar nodig en vul je eigen username en password in.
