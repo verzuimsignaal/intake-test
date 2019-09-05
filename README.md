@@ -14,7 +14,7 @@ Daarnaast zitten er nog een aantal TODO's in de code zelf. Deze zijn niet verpli
 Wat we vooral willen weten is WAAROM je bepaalde keuzes maakt. Zorg er daarom voor dat je je code goed becommentarieert. En bereid bent om er vragen over uit te leggen.
 
 # Installatie
-Je kan om dit project thuis te draaien gebruikmaken van bijvoorbeeld WAMP (https://bitnami.com/stack/wamp). Je mag natuurlijk altijd zelf beslissen waarmee je host/ontwikkelt.
+Je kan om dit project thuis te draaien gebruikmaken van bijvoorbeeld WAMP (https://bitnami.com/stack/wamp). Dit project draait op PHP 7. Je mag natuurlijk altijd zelf beslissen waarmee je host/ontwikkelt.
 
 Dit project maakt gebruik van composer (https://getcomposer.org/) en NPM (https://www.npmjs.com/) om bepaalde packages op te halen.
 
