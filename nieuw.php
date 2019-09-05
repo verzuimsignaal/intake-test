@@ -45,7 +45,7 @@ $type = $_GET['type'];
 
         <?php break;
     case 'task':
-    require('services/Database.php');
+    require(__DIR__.'/services/Database.php');
     $db = new Database;
 
     $cars = $db->getAllRows('SELECT car.*, customer.first_name, customer.last_name from car JOIN customer on customer.id = car.customer_id;')

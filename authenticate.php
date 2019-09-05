@@ -6,6 +6,8 @@ $db = new Database;
 session_start();
 session_unset();
 
+//TODO: Handle failure gracefully
+
 if (isset($_POST['login']) && isset($_POST['password'])) {
     $login = $_POST['login'];
 

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-include_once('../services/Database.php');
+include_once(__DIR__.'/../services/Database.php');
 
 
 /**
